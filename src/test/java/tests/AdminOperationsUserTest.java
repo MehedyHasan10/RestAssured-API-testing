@@ -46,7 +46,7 @@ public class AdminOperationsUserTest extends BaseTest {
             HashMap<String, String> data = new HashMap<>();
             data.put("name", "test User");
             data.put("email", email);
-            data.put("password", "#MeHeDy#siam209902");
+            data.put("password", "test_password");
             data.put("phone", "01735233728");
             data.put("address", "Baganbari, Sirajgonj");
 
