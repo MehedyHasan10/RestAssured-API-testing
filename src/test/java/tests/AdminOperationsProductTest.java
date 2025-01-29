@@ -18,8 +18,8 @@ public class AdminOperationsProductTest extends BaseTest{
     @Test(priority = 1)
     public void testUserLogin() {
         HashMap<String, String> data = new HashMap<>();
-        data.put("email", "mehedisiam11@gmail.com");
-        data.put("password", "#MeHeDy#siam209902");
+        data.put("email", "admin_email");
+        data.put("password", "admin_password");
 
         token = given()
                 .header("Content-Type", "application/json")
