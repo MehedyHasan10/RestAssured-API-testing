@@ -1,4 +1,4 @@
-package tests;
+package utils;
 
 import com.cloudinary.Cloudinary;
 import com.cloudinary.utils.ObjectUtils;
@@ -11,9 +11,9 @@ import java.util.Map;
 public class CloudinaryImageUpload {
     public static String uploadImage(String imagePath) throws Exception {
         Cloudinary cloudinary = new Cloudinary(ObjectUtils.asMap(
-                "cloud_name", "dqqsvjqqu",
-                "api_key", "674447532452431",
-                "api_secret", "o8PrWYYd0jK68PyvyF7K5RGHSR4"));
+                "cloud_name", "cloudinart_name",
+                "api_key", "cloudinary_key",
+                "api_secret", "cloudinary_secret"));
 
         File imageFile = new File(imagePath);
         Map uploadResult = cloudinary.uploader().upload(imageFile, ObjectUtils.emptyMap());

@@ -1,4 +1,4 @@
-package tests;
+package utils;
 
 import java.util.Base64;
 import com.google.gson.JsonObject;
