@@ -10,11 +10,11 @@ JSONPath (for API response parsing)
 Test Modules:
 
 1. AdminOperationsCategoryTest
-2. 
+
 User Login: Authenticates admin user and retrieves an access token.
 
 Create Category: Adds a new category and extracts its slug.
-\
+
 Get Category by Slug: Fetches category details using the slug.
 
 Get List of Categories: Retrieves all available categories.
@@ -23,7 +23,7 @@ Update Category by Slug: Modifies an existing category.
 
 Delete Category: Removes a category from the system.
 
-3. AdminOperationsProductTest
+2. AdminOperationsProductTest
 
 User Login: Authenticates admin user.
 
