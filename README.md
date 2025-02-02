@@ -11,13 +11,14 @@ Test Modules:
 
 1. AdminOperationsCategoryTest
 User Login: Authenticates admin user and retrieves an access token.
+
 Create Category: Adds a new category and extracts its slug.
 Get Category by Slug: Fetches category details using the slug.
 Get List of Categories: Retrieves all available categories.
 Update Category by Slug: Modifies an existing category.
 Delete Category: Removes a category from the system.
 
-2. AdminOperationsProductTest
+3. AdminOperationsProductTest
 
 User Login: Authenticates admin user.
 Create Product: Adds a new product with image upload and extracts its slug.
